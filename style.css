@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /*earlier the body did not had any height , so we specify it explicitly.*/
+    font-family: cursive;
+}
+
+.testimonial-container{  /*it will be at the center vertically also when we gave height to the body*/
+    width: 500px;
+    height: 200px;
+    background-color: slateblue;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.3);
+    min-width: 400px;
+    padding: 70px 20px;
+    margin: 5px;
+    color: white;
+    position: relative;
+}
+
+
+img{
+    position: absolute;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -70px;
+}
+
+.username{
+    font-size: 15px;
+    font-weight: 100;
+}
